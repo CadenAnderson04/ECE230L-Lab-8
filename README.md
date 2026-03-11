@@ -14,6 +14,10 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Names
 Caden Anderson, Brolen Gumb
 ## Summary
+ - In this lab we learned how to implement a 4 to 1 demultiplexer and a
+1 to 4 multiplexer within verilog. We then used the combined functionality
+of the two circuits in order to select a certain input and route that input
+to a specific output or "location".
 
 ## Lab Questions
 
@@ -24,4 +28,7 @@ Caden Anderson, Brolen Gumb
   - A DeMUX is known as a 'Data Distributor' & takes in a single data input & outputs 2^n data lines. Also can utilize enable switches which allow outputs to represent themselves or forcing a neutral state for all. 
 
 ### What other uses might these circuits have? (Think Shannon’s)
-  - These circuits allow users to 
+  - Beyond data routing, these circuits are used for logic synthesis using
+Shannon's Expansion. This allows a Multiplexer to act as a universal logic
+gate where complex Boolean functions are implemented by mapping truth table
+outputs directly to mux inputs. 
